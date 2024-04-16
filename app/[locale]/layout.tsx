@@ -20,6 +20,14 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
+<script
+  type="module"
+  data-storehash="e1cam9rwlm"
+  data-channelid="1554994"
+  src="https://cdn.bundleb2b.net/b2b/production/storefront/headless.js"
+></script>
+
+
 export async function generateMetadata(): Promise<Metadata> {
   const storeSettings = await getStoreSettings();
   const title = storeSettings?.storeName ?? 'Catalyst Store';
